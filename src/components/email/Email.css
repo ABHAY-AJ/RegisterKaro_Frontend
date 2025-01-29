@@ -43,6 +43,7 @@
   }
   
   .email-input {
+    border-radius: 0.5rem 0 0 0.5rem ;
     padding:0.5rem;
     font-size: var(--font-size-base);
     border: none;
@@ -55,6 +56,7 @@
     
     /*  */
     padding: 0.5rem;
+    border-radius: 0 0.5rem 0.5rem 0 ;
     font-family: "Inter",serif;
     font-size: var(--font-size-base);
     border: none;

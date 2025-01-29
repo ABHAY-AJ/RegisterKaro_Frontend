@@ -9,7 +9,12 @@ import monday from "../../assets/Group (2).png";
 import segment from "../../assets/Group (3).png";
 import pagination from "../../assets/Pagination.png";
 import ellipse from "../../assets/Display Icon.png";
-
+import company from "../../assets/Company.png"
+import company1 from "../../assets/Company1.png"
+import company2 from "../../assets/Company2.png"
+import company3 from "../../assets/Company3.png"
+import company4 from "../../assets/Company4.png"
+import company5 from "../../assets/Company5.png"
 import ellipse11 from "../../assets/Ellipse.png";
 import ellipse1 from "../../assets/Ellipse (1).png";
 import ellipse2 from "../../assets/Ellipse (2).png";
@@ -224,22 +229,22 @@ const Home = () => {
         <div className="success-container">
           <div className="success-images">
             <div className="images">
-              <img src={oracle}></img>
+              <img src={company}></img>
             </div>
             <div className="images">
-              <img src={morpheus}></img>
+              <img src={company1}></img>
             </div>
             <div className="images">
-              <img src={morpheus}></img>
+              <img src={company2}></img>
             </div>
             <div className="images">
-              <img src={samsung}></img>
+              <img src={company3}></img>
             </div>
             <div className="images">
-              <img src={monday}></img>
+              <img src={company4}></img>
             </div>
             <div className="images">
-              <img src={segment}></img>
+              <img src={company5}></img>
             </div>
           </div>
         </div>

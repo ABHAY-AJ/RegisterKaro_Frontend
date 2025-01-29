@@ -68,3 +68,8 @@ register-kro-homepage/
 
 # ScreenShots
 
+![alt text](./src/assets/Screenshot_1.png)
+![alt text](./src/assets/Screenshot_2.png)
+![alt text](./src/assets/Screenshot_3.png)
+![alt text](./src/assets/Screenshot_4.png)
+![alt text](./src/assets/Screenshot_5.png)
