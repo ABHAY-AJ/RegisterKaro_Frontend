@@ -1,0 +1,175 @@
+.digital-container {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Inter", serif;
+  }
+  
+  .digital-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .digital-heading p {
+    color: #eb8d15;
+    font-size: 0.9rem;
+    margin: 0.5rem;
+    font-weight: 400;
+  }
+  
+  .digital-heading h2 {
+    color: #3c2109;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem;
+  }
+  
+  .middle-up {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .middle-card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    max-width: 20rem;
+    margin: 0.5rem;
+    overflow: hidden;
+   
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-date,
+  .card-description,
+  .card-keywords,
+  .card-title {
+    margin: 0.5rem;
+    padding: 0 1rem;
+  }
+  
+  .card-date p {
+    color: #667085;
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  
+  .card-title h2 {
+    font-size: 1.3rem;
+    color: #1a1a1a;
+  }
+  
+  .card-description p {
+    color: #667085;
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  
+  .card-keywords span {
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin: 0.5rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 5px;
+    
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Specific keyword color classes */
+  .tax-audit {
+    background-color: #ffcc00;
+    color: #3c2109;
+  }
+  
+  .management {
+    background-color: #0066cc;
+    color: white;
+  }
+  
+  .audit {
+    background-color: #ff3366;
+    color: white;
+  }
+  
+  .research {
+    background-color: #33cc33;
+    color: white;
+  }
+  
+  .compliance {
+    background-color: #6633cc;
+    color: white;
+  }
+  
+  .money-back {
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  .money {
+    background-color: #ff99cc;
+    color: #3c2109;
+  }
+  
+  .tax-return {
+    background-color: #3399ff;
+    color: white;
+  }
+  
+  .return {
+    background-color: #cc0066;
+    color: white;
+  }
+  
+  .business {
+    background-color: #ff66cc;
+    color: white;
+  }
+  
+  
+  .digital-low {
+    margin-top: 2rem;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .digital-container {
+      padding: 2rem;
+    }
+  
+    .middle-card {
+      max-width: 100%;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

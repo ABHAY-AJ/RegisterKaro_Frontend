@@ -1,0 +1,69 @@
+:root {
+    --primary-color: #f8f9fa;
+    --secondary-color: #2c3e50;
+    --accent-color: #f39c12;
+    --font-family: "Lato", sans-serif;
+    --stat-number-color: #34495e;
+    --stat-label-color: #7f8c8d;
+  }
+  .numbers-section {
+    font-family: "Inter",serif;
+    padding: 3rem;
+    background-color: var(--primary-color);
+    text-align: center;
+  }
+  
+  .numbers-section__subheading {
+    font-size: 1rem;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+  
+  .numbers-section__heading {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .numbers-section__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .numbers-item {
+    text-align: center;
+  }
+  
+  .numbers-item__number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:#2b477c;
+
+    margin-bottom: 0.5rem;
+  }
+  
+  .numbers-item__label {
+    font-size: 1rem;
+    color: var(--stat-label-color);
+    text-transform: uppercase;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .numbers-section__heading {
+      font-size: 1.5rem;
+    }
+  
+    .numbers-item__number {
+      font-size: 2rem;
+    }
+  
+    .numbers-item__label {
+      font-size: 0.9rem;
+    }
+  }
+  
