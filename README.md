@@ -33,7 +33,7 @@ Ensure you have the following installed on your system:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd register-kro-homepage
+   cd registerKaro-Task
 
 2. Install Dependencies:
    npm install
@@ -42,20 +42,8 @@ Ensure you have the following installed on your system:
    npm run dev
 
 4. Open the application in your browser:
-   http://localhost:5173
-   
-# Folder Structure
-register-kro-homepage/
-├── src/
-│   ├── assets/          # Images, icons, and other static assets
-│   ├── components/      # Reusable React components
-│   ├── styles/          # Global styles and CSS/SCSS files
-│   ├── App.jsx          # Root component
-│   └── main.jsx         # Entry point for the React application
-├── public/              # Static files served directly
-├── package.json         # Project dependencies and scripts
-├── vite.config.js       # Vite configuration
-└── README.md            # Project documentation
+   http://localhost:5174
+
 
 # Development Process
 1. Analyze the Figma Design: Studied the design to break it into reusable components and structure.
