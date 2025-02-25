@@ -1,3 +1,5 @@
+![alt text](./src/assets/insights.png)
+
 # Register Kro - Home Page
 
 This repository contains the implementation of the home page for the **Register Kro** project, based on the provided Figma design. The project is built using **React** with **Vite** as the build tool.
