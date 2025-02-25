@@ -1,69 +1,113 @@
 :root {
-    --primary-color: #f8f9fa;
-    --secondary-color: #2c3e50;
-    --accent-color: #f39c12;
-    --font-family: "Lato", sans-serif;
-    --stat-number-color: #34495e;
-    --stat-label-color: #7f8c8d;
-  }
-  .numbers-section {
-    font-family: "Inter",serif;
-    padding: 3rem;
-    background-color: var(--primary-color);
-    text-align: center;
-  }
-  
-  .numbers-section__subheading {
-    font-size: 1rem;
-    color: var(--accent-color);
-    margin-bottom: 0.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-  }
-  
-  .numbers-section__heading {
-    font-size: 2rem;
-    color: var(--secondary-color);
-    margin-bottom: 2rem;
-    font-weight: bold;
-  }
-  
-  .numbers-section__grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    gap: 2rem;
-  }
-  
-  .numbers-item {
-    text-align: center;
-  }
-  
-  .numbers-item__number {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color:#2b477c;
+  --primary-color: #f8f9fa;
+  --secondary-color: #2c3e50;
+  --accent-color: #f39c12;
+  --font-family: "Lato", sans-serif;
+  --stat-number-color: #34495e;
+  --stat-label-color: #7f8c8d;
+}
 
-    margin-bottom: 0.5rem;
+.numbers-section {
+  font-family: "Inter", serif;
+  padding: 3rem 1rem; /* Reduced padding for smaller screens */
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+.numbers-section__subheading {
+  font-size: 1rem;
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.numbers-section__heading {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.numbers-section__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted minmax for better responsiveness */
+  gap: 2rem;
+  max-width: 1200px; /* Limit max width for better readability */
+  margin: 0 auto; /* Center the grid */
+}
+
+.numbers-item {
+  text-align: center;
+  padding: 1rem; /* Added padding for better spacing */
+}
+
+.numbers-item__number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2b477c;
+  margin-bottom: 0.5rem;
+}
+
+.numbers-item__label {
+  font-size: 1rem;
+  color: var(--stat-label-color);
+  text-transform: uppercase;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .numbers-section__heading {
+    font-size: 1.8rem; /* Adjusted font size for medium screens */
   }
-  
+
+  .numbers-item__number {
+    font-size: 2.2rem; /* Adjusted font size for medium screens */
+  }
+
   .numbers-item__label {
-    font-size: 1rem;
-    color: var(--stat-label-color);
-    text-transform: uppercase;
+    font-size: 0.9rem; /* Adjusted font size for medium screens */
   }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .numbers-section__heading {
-      font-size: 1.5rem;
-    }
-  
-    .numbers-item__number {
-      font-size: 2rem;
-    }
-  
-    .numbers-item__label {
-      font-size: 0.9rem;
-    }
+}
+
+@media (max-width: 768px) {
+  .numbers-section {
+    padding: 2rem 1rem; /* Reduced padding for smaller screens */
   }
-  
+
+  .numbers-section__heading {
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+  }
+
+  .numbers-section__grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjusted minmax for smaller screens */
+    gap: 1.5rem; /* Reduced gap for smaller screens */
+  }
+
+  .numbers-item__number {
+    font-size: 2rem; /* Adjusted font size for smaller screens */
+  }
+
+  .numbers-item__label {
+    font-size: 0.85rem; /* Adjusted font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .numbers-section__heading {
+    font-size: 1.4rem; /* Adjusted font size for very small screens */
+  }
+
+  .numbers-section__grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjusted minmax for very small screens */
+    gap: 1rem; /* Reduced gap for very small screens */
+  }
+
+  .numbers-item__number {
+    font-size: 1.8rem; /* Adjusted font size for very small screens */
+  }
+
+  .numbers-item__label {
+    font-size: 0.8rem; /* Adjusted font size for very small screens */
+  }
+}

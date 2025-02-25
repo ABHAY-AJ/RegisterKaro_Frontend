@@ -42,7 +42,7 @@ Ensure you have the following installed on your system:
    npm run dev
 
 4. Open the application in your browser:
-   http://localhost:5174
+   http://localhost:5173
 
 
 # Development Process

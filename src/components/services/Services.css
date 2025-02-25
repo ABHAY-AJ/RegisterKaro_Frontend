@@ -84,7 +84,9 @@
     justify-content: center;
     padding:1rem;
 }
-
+.learn-more{
+  background-color: #001038;
+}
 @media (max-width: 1024px) {
     .services-heading {
       padding: 1.5rem;

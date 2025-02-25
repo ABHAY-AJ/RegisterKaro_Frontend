@@ -51,9 +51,15 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <button className="scroll-top-button">&#8593;</button>
-        <p>© 2024 Registerkaro. All Rights Reserved.</p>
-      </div>
+  <button 
+    className="scroll-top-button" 
+    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+  >
+    &#8593;
+  </button>
+  <p>© 2024 Registerkaro. All Rights Reserved.</p>
+</div>
+
     </footer>
   )
 }

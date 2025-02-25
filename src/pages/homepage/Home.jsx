@@ -36,6 +36,15 @@ import Email from "../../components/email/Email";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 const Home = () => {
+  const handleShowMore = () => {
+    const clientImage = document.querySelector(".client-image");
+    if (clientImage) {
+      clientImage.scrollBy({
+        left: 200, // Adjust scroll distance as needed
+        behavior: "smooth", // Smooth scrolling
+      });
+    }
+  };
   return (
     <>
       <div className="container">
@@ -126,14 +135,16 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="client-image">
-            <img src={pagination}></img>
-          </div>
-          <div className="text-div">
-            <p>
-              Show More<img src={right}></img>
-            </p>
-          </div>
+          <div className="client-image-container">
+  <div className="client-image">
+    <img src={pagination} alt="Client Pagination" />
+  </div>
+  <div className="text-div" onClick={handleShowMore}>
+    <p>
+      Show More <img src={right} alt="Right Arrow" />
+    </p>
+  </div>
+</div>
         </div>
         <div className="orange-div">
   <div className="orange-container">
