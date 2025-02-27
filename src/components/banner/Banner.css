@@ -77,9 +77,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #1C4670;
   font-weight: 600;
+  
+  background: linear-gradient(90deg, #FFA229 9%, #1C4670 59.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Makes text take gradient */
 }
+
 
 .stats li img {
   margin: 0.5rem;
